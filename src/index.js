@@ -2,8 +2,6 @@ const http = require('http')
 const path = require('path')
 const fs = require('fs')
 
-
-
 // Create a server
 const server = http.createServer((req, res) => { 
     // Make serving static content dynamic by building a dynamic file path
